@@ -9,7 +9,7 @@ USAGE
 
 Example usage of ajax button widget
 
-###Basic usage
+Basic usage
 
 ```
 dmstr\ajaxbutton\AjaxButton::widget([
@@ -17,7 +17,7 @@ dmstr\ajaxbutton\AjaxButton::widget([
   'url' => ['/path/to/action','name' => 'key']
 ]);
 ```
-###Advanced usage
+Advanced usage
 
  ```
 dmstr\ajaxbutton\AjaxButton::widget([
