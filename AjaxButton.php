@@ -66,8 +66,8 @@ use yii\web\JsExpression;
  *      'params' => ['status' => 'active'],
  *      'url' => ['/path/to/action'],
  *      'options' => ['class' => 'button'],
- *      'errorExpression' => new JsExpression('function(resp,status,xhr) {if (xhr.status === 200) {button.html("Success")}}'),
- *      'successExpression' => new JsExpression('function(xhr) {if (xhr.status === 404) {button.html("Error");console.error(xhr.responseJSON)}}')
+ *      'successExpression' => new JsExpression('function(resp,status,xhr) {if (xhr.status === 200) {button.html("Success")}}'),
+ *      'errorExpression' => new JsExpression('function(xhr) {if (xhr.status === 404) {button.html("Error");console.error(xhr.responseJSON)}}')
  *  ]);
  *
  */
