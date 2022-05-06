@@ -120,7 +120,7 @@ class AjaxButton extends Widget
         }
 
         $this->view->registerJs(<<<JS
-$(document).on('click','button[data-ajax-button-id]', 'click', function() {
+$(document).on('click','button[data-ajax-button-id={$this->id}]', 'click', function() {
     var button = $(this);
     $.ajax({
         url : button.data('ajax-button-url'),
